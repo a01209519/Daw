@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Script 3</title>
+</head>
+<body>
+<h1>Script 3</h1>
+<script type="text/javascript">
+	let arreglo1 = new Array(1,6,9,-4,-2,-6,0,0,0);
+	let arreglo2 = new Array(20,64,32,-79,-108,-23,0,0,0);
+
+	function contador(arreglo){
+		let neg = 0;
+		let cero = 0;
+		let pos = 0;
+		for(let i = 0; i < arreglo.length; i++){
+			if (arreglo[i] == 0) {
+				cero++;
+			} else if (arreglo[i] < 0) {
+				neg++;
+			} else{
+				pos++;
+			}
+		}
+		document.write('Arreglo usado: '+arreglo+"<br>");
+		document.write('Hay '+neg+' numeros menores a 0'+"<br>");
+		document.write('Hay '+cero+' ceros'+"<br>");
+		document.write('Hay '+pos+' numeros mayores a 0'+"<br>");
+	}
+
+	contador(arreglo1);
+	contador(arreglo2);
+</script>
+</body>
+</html>

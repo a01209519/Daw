@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Script 2</title>
+</head>
+<body>
+	<h1>Script 2</h1>
+	<script type="text/javascript">
+		var tiempo1 = new Date();
+		let numero = prompt("Dame un numero del 0 al 20");
+		let aleatorio1 = Math.floor(Math.random() * (11));
+		let aleatorio2 = Math.floor(Math.random() * (11));
+		let suma = (aleatorio1+aleatorio2);
+		let tiempo2 = new Date();
+		let res = tiempo2 - tiempo1;
+		var diff_seg = Math.floor(res / 1000);
+		var seg = diff_seg % 60;
+		if (numero == suma) {
+			document.write('Numero Calculado: '+aleatorio1+' + '+ aleatorio2+' = '+suma+"<br>");
+			document.write('Tu numero: '+numero+"<br>");
+			document.write('LE ATINASTE AL Numero!!!'+"<br>");
+			document.write('Te tardaste '+seg+' segundos en responder');
+		} else {
+			document.write('Numero Calculado: '+aleatorio1 +' + '+ aleatorio2 +' = '+ suma+"<br>");
+			document.write('Tu numero: '+ numero +"<br>");
+			document.write('NO LE ATINASTE AL Numero :('+"<br>");
+			document.write('Te tardaste '+seg+' segundos en responder');
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Script 4</title>
+</head>
+<body>
+	<h1>Script 4</h1>
+	<script type="text/javascript">
+		let arreglo1 = new Array (10,10,10,8,10,7,7,9,5,7);
+		let arreglo2 = new Array (6,10,9,10,8,8,7,3,9,8);
+		let arreglomatr = (arreglo1,arreglo2);
+		document.write('Primer arreglo: '+arreglo1+"<br>");
+		document.write('Segundo arreglo: '+arreglo2+"<br>");
+		let i = 0;
+		let aux = 0;
+		function promedios(arreglomatr){
+			let aux = 0;
+			let aux2 = 0;
+			for(let i = 0; i < 10; i++){
+				aux += arreglomatr[i];
+			}
+			for(let j = 10; j < 20; j++){
+				aux2 += arreglomatr[j];
+			}
+			aux = aux/10;
+			aux2 = aux2/10;
+			document.write('El primer promedio es: '+aux+"<br>");
+			document.write('El segundo promedio es: '+aux2+"<br>");
+		}
+		promedios(arreglomatr);
+	</script>
+</body>
+</html>

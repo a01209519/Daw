@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Script 5</title>
+</head>
+<body>
+	<h1>Script 5</h1>
+	<script type="text/javascript">
+		let numero = prompt("Dame un numero positivo: ");
+		function inverso(number){
+		let num = number.toString();
+		let aux = num.split("").reverse().join("");
+		let aux2 = Number(aux);
+		document.write("Numero invertido : "+aux2);
+		}
+		inverso(numero);
+	</script>
+</body>
+</html>

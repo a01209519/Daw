@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Script 1</title>
+</head>
+<body>
+	<h1>Script 1</h1>
+	<script type="text/javascript">
+		let numero = prompt("Dame un numero mayor a 1");
+		document.write("<table><tr><td>Numero</td><td>Cuadrado</td><td>Cubo</td></tr>");
+		for(let i = 1; i<= numero; i++){
+			document.write("<tr><td>"+i+"</td><td>"+Math.pow(i,2)+"</td><td>"+Math.pow(i,3)+"</td></tr>")
+		}
+		document.write("</table>");
+	</script>
+</body>
+</html>
