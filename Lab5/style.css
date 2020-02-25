@@ -1,0 +1,18 @@
+body{
+	background-color: DarkSlateGray;
+}
+h1{
+	text-align: center;
+	color: LightBlue;
+}
+footer{
+	background-color: LightSalmon;
+	font-family: verdana;
+	font-size: 18px;
+}
+p{
+	color: white;
+	font.font-family: verdana;
+	font-size: 20px;
+	text-align: left;
+}
