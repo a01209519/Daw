@@ -5,13 +5,30 @@
 	<title>Lab5</title>
 </head>
 <body>
+	<h1>Lab 5</h1>
+	<h2>Validador de Contraseñas</h2>
+    <p>Contraseña <input type="password" id="password"></p>
+    <p> Ingresa otra vez la Contraseña <input type="password" id="ver"></p>
+    <input type="submit" value="Validar" id="Validar">
+    <div id="texto"></div>
+    <h2>Tienda</h2>
+    <p><img src="tenis.png"> Cantidad <input type="number" id="item1" min="0"> Costo: 900$</p>
+    <p><img src="control.png"> Cantidad <input type="number" id="item2" min="0"> Costo: 150$<p>
+    <p><img src="chamarra.png"> Cantidad <input type="number" id="item3" min="0"> Costo: 700$<p>
+    <input type="submit" value="Comprar" id="comprar">
+    <div id="subtotal"></div>
+    <div id="total"></div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 <footer>
 	<h1>Preguntas:</h1>
 	<p>
 		¿Por qué es una buena práctica usar JavaScript para checar que sean válidos los inputs de las formas antes de enviar los datos al servidor?<br>
+		Porque así checas que las cosas funcionan como deben de funcionar, poder manejar los errores y que no se detenga tu programa.
 		¿Cómo puedes saltarte la seguridad de validaciones hechas con JavaScript?<br>
+		Sabiendo como funciona javascript te puedes bricar algunas cosas que corrige el navegador.
 		Si te puedes saltar la seguridad de las validaciones de JavaScript, entonces ¿por qué la primera pregunta dice que es una buena práctica?<br>
+		Porque si tu input es muy grande puede tardar mucho en llegar y regresar, todo para solo marcarte un error y esto hace que el tiempo de espera de menor.
 	</p>
 </footer>
 </html>
