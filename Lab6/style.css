@@ -1,0 +1,31 @@
+body{
+	background-color: Cornsilk;
+}
+h1{
+	font-family: verdana;
+	text-align: center;
+}
+h2{
+	font-family: verdana;
+	text-align: center;
+}
+footer{
+	background-color: BurlyWood;
+}
+p{
+	font-family: verdana;
+}
+
+div.imagen{
+	opacity: 0.2;
+	z-index: -1;
+	position: absolute;
+	right: 210px;
+	top: -10px;
+}
+
+.button{
+	background-color: orange;
+	padding: 10px 30px;
+	font-size: 16px;
+}
