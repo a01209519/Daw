@@ -41,3 +41,7 @@ div.imagen{
   padding: 10px;
   border: 1px solid black;
 }
+
+#texto{
+	text-align: justify;
+}
