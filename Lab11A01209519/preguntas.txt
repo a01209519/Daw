@@ -1,0 +1,19 @@
+Eduardo Guzman A01209519
+
+	¿Que muestra la instrucción sp_help materiales? 
+Muestra ayuda
+
+¿Qué efecto tuvo ejecutar el archivo crear.sql?
+Se crearon las 4 tablas con un solo comando
+
+	¿Qué utilidad tiene esta manera de ejecutar los comandos de SQL?
+Que en un mismo archivo puedes crear todas las tablas que sean necesarias para la base de datos. Entonces puedes almacenar todo en un solo query y no en varios.
+
+	¿Qué relación tienen con las tablas de la base de datos?
+Se tiene la dirección o el nombre de la tabla donde se llenaran los datos.
+
+	¿Qué relación tiene el contenido de este archivo (materiales.sql) con el formato en que se encuentran los datos en el archivo materiales.csv?
+El formato csv son valores separadores por coma los cuales pueden ser leídos de manera en cada coma sea identificado a cada columna o fila.
+
+	¿Qué sucedió al ejecutar SELECT * FROM Materiales?
+Se desplegó el contenido de la tabla de materiales.
